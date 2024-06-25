@@ -87,6 +87,8 @@ export default function App() {
     setIsModalVisible(false);
   };
 
+  <StatusBar style="light" />;
+
   return (
     <GestureHandlerRootView style={styles.container}>
       <View style={styles.container}>
